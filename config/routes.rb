@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'crestron/index'
   devise_for :users
   root "static_pages#index"
   resources :static_pages
